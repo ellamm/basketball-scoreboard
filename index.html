@@ -1,0 +1,52 @@
+div<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="site-container">
+        <h1>Basketball Scoreboard</h1>
+        <div class="timer-display">
+          <span id="minutes">00</span>:<span id="seconds">00</span>
+        </div>
+        <div class="timer-container">
+          <button id="start-timer" onclick="startTimer()">Start</button>
+          <button id="pause-timer" onclick="pauseTimer()">Pause</button>
+          <button id="reset-timer" onclick="resetTimer()">Reset</button>
+        </div>
+        <div class="score-container">
+          <div class="home-container">
+            <h3>Home</h3>
+            <div class="score"><p class="highlight" id="home-score">0</p></div>
+            <div class="buttons">
+              <button onclick="homeScorePlus1()">+1</button>
+              <button onclick="homeScorePlus2()">+2</button>
+              <button onclick="homeScorePlus3()">+3</button>
+            </div>
+          </div>
+          <div class="guest-container">
+            <h3>Guest</h3>
+            <div class="score"><p id="guest-score">0</p></div>
+            <div class="buttons">
+              <button onclick="guestScorePlus1()">+1</button>
+              <button onclick="guestScorePlus2()">+2</button>
+              <button onclick="guestScorePlus3()">+3</button>
+            </div>
+          </div>
+        </div>
+        <button class="reset-button" onclick="resetScore()">New Game</button>
+      </div>
+    </main>
+
+    <script src="./js/countScore.js"></script>
+    <script src="./js/timer.js"></script>
+  </body>
+</html>

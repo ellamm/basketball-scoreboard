@@ -1,0 +1,110 @@
+body {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  color: #fafafa;
+}
+
+div.site-container {
+  width: 580px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: #b45309;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+h1 {
+  font-family: "Verdana", sans-serif;
+}
+
+div.timer-display {
+  margin: 0;
+  font-size: 2rem;
+}
+
+div.timer-container button {
+  background: none;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  border: 1px solid #fffbeb;
+  color: #fffbeb;
+  box-shadow: 0 0 5px #fffbeb;
+  cursor: pointer;
+}
+
+div.timer-container button:hover {
+  background-color: #78350f;
+  color: #fffbeb;
+  box-shadow: 0 0 10px #fffbeb;
+}
+
+div.score-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 6em;
+}
+
+h3 {
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 0.5em;
+  font-family: "Verdana", sans-serif;
+  text-transform: uppercase;
+}
+
+div.score {
+  background-color: #78350f;
+  display: inline-block;
+  width: 155px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5.6rem;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+div.score p {
+  margin-bottom: 0.8em;
+}
+
+div.buttons {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+  max-width: 155px;
+}
+
+div.buttons button {
+  border: 1px solid #fffbeb;
+  background: none;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  width: 45px;
+  height: 45px;
+  color: #fffbeb;
+  cursor: pointer;
+}
+div.buttons button:hover {
+  background-color: #78350f;
+}
+button.reset-button {
+  background-color: #78350f;
+  border: none;
+  border-radius: 5px;
+  font-family: "Verdana", sans-serif;
+  text-transform: uppercase;
+  color: #fafafa;
+  font-size: 1rem;
+  padding: 1em 1em;
+}
+
+button.reset-button:hover {
+  background: none;
+  color: #fffbeb;
+  box-shadow: 0 0 10px #fffbeb;
+}
