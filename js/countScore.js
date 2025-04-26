@@ -80,4 +80,4 @@ document
   .getElementById("guest-score-3")
   .addEventListener("click", guestScorePlus3);
 
-document.getElementById("reset-score").addEventListener("click", resetScore);
+document.getElementById("reset-button").addEventListener("click", resetScore);
