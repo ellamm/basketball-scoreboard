@@ -41,3 +41,7 @@ function resetTimer() {
   seconds = 0;
   updateTimerDisplay();
 }
+
+document.getElementById("start-timer").addEventListener("click", startTimer);
+document.getElementById("pause-timer").addEventListener("click", pauseTimer);
+document.getElementById("reset-timer").addEventListener("click", resetTimer);

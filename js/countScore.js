@@ -58,3 +58,26 @@ function highlightWinner() {
     guestScore.style.color = "#fafafa";
   }
 }
+
+document
+  .getElementById("home-score-1")
+  .addEventListener("click", homeScorePlus1);
+
+document
+  .getElementById("home-score-2")
+  .addEventListener("click", homeScorePlus2);
+document
+  .getElementById("home-score-3")
+  .addEventListener("click", homeScorePlus3);
+
+document
+  .getElementById("guest-score-1")
+  .addEventListener("click", guestScorePlus1);
+document
+  .getElementById("guest-score-2")
+  .addEventListener("click", guestScorePlus2);
+document
+  .getElementById("guest-score-3")
+  .addEventListener("click", guestScorePlus3);
+
+document.getElementById("reset-score").addEventListener("click", resetScore);

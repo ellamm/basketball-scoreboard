@@ -18,27 +18,27 @@ div<!DOCTYPE html>
           <span id="minutes">00</span>:<span id="seconds">00</span>
         </div>
         <div class="timer-container">
-          <button id="start-timer" onclick="startTimer()">Start</button>
-          <button id="pause-timer" onclick="pauseTimer()">Pause</button>
-          <button id="reset-timer" onclick="resetTimer()">Reset</button>
+          <button id="start-timer">Start</button>
+          <button id="pause-timer">Pause</button>
+          <button id="reset-timer">Reset</button>
         </div>
         <div class="score-container">
           <div class="home-container">
             <h3>Home</h3>
             <div class="score"><p class="highlight" id="home-score">0</p></div>
             <div class="buttons">
-              <button onclick="homeScorePlus1()">+1</button>
-              <button onclick="homeScorePlus2()">+2</button>
-              <button onclick="homeScorePlus3()">+3</button>
+              <button id="home-score-1">+1</button>
+              <button id="home-score-2">+2</button>
+              <button id="home-score-3">+3</button>
             </div>
           </div>
           <div class="guest-container">
             <h3>Guest</h3>
             <div class="score"><p id="guest-score">0</p></div>
             <div class="buttons">
-              <button onclick="guestScorePlus1()">+1</button>
-              <button onclick="guestScorePlus2()">+2</button>
-              <button onclick="guestScorePlus3()">+3</button>
+              <button id="guest-score-1">+1</button>
+              <button id="guest-score-2">+2</button>
+              <button id="guest-score-3">+3</button>
             </div>
           </div>
         </div>
