@@ -6,8 +6,8 @@ The website was build during *Scrimba Frontend Development Career Path*.
 
 ## 🚀 Live Demo
 
-[View Live App](https://basketball-scor.netlify.app/)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9c6723c0-275c-4b92-868f-d68786860daf/deploy-status)](https://app.netlify.com/projects/basketball-scor/deploys)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9c6723c0-275c-4b92-868f-d68786860daf/deploy-status)](https://app.netlify.com/projects/basketball-scor/deploys) [View Live App](https://basketball-scor.netlify.app/) 
 
 ## 📋 Features
 
